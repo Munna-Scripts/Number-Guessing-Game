@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="playerBox player1">
+            <div class="playerStatus">
+                <h1>Player 1</h1>
+            </div>
+            
+            <div class="output">
+                <span class="result">Select Your Number</span>
+                <button onclick="ClearDisplay()" class="bg-red DeleteNumber">Clear</button>
+            </div>
+            <div class="buttons">
+                <button onclick="DisplayResult('1')" class="Number1">1</button>
+                <button onclick="DisplayResult('2')" class="Number2">2</button>
+                <button onclick="DisplayResult('3')" class="Number3">3</button>
+                <button onclick="DisplayResult('4')" class="Number4">4</button>
+                <button onclick="DisplayResult('5')" class="Number5">5</button>
+                <button onclick="DisplayResult('6')" class="Number6">6</button>
+                <button onclick="DisplayResult('7')" class="Number7">7</button>
+                <button onclick="DisplayResult('8')" class="Number8">8</button>
+                <button onclick="DisplayResult('9')" class="Number9">9</button>
+                <button onclick="DisplayResult('10')" class="Number10">10</button>
+            </div>
+            <button class="bg-green EnterButton">Enter</button>
+        </div>
+        <!-- -------player Two-------- -->
+         <div class="playerBox player2">
+            <div class="playerStatus">
+                <h1>Player 2</h1>
+            </div>
+            <div class="GuessChange">
+                <h2>Guess The Number</h2>
+                <h2><span>5 </span>Out Of 5</h2>
+            </div>
+            
+            <div class="output">
+                <span class="result">Select Your Number</span>
+                <button onclick="ClearDisplay()" class="bg-red DeleteNumber">Clear</button>
+            </div>
+            <div class="buttons">
+                <button onclick="DisplayResult('1')" class="Number1">1</button>
+                <button onclick="DisplayResult('2')" class="Number2">2</button>
+                <button onclick="DisplayResult('3')" class="Number3">3</button>
+                <button onclick="DisplayResult('4')" class="Number4">4</button>
+                <button onclick="DisplayResult('5')" class="Number5">5</button>
+                <button onclick="DisplayResult('6')" class="Number6">6</button>
+                <button onclick="DisplayResult('7')" class="Number7">7</button>
+                <button onclick="DisplayResult('8')" class="Number8">8</button>
+                <button onclick="DisplayResult('9')" class="Number9">9</button>
+                <button onclick="DisplayResult('10')" class="Number10">10</button>
+            </div>
+            <button class="bg-green EnterButton">Enter</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
