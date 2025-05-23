@@ -125,3 +125,60 @@ button:active {
     color: white;
     font-size: 20px;
 }
+
+/* -----------Win Card ------------ */
+.winCard{
+  background-color: #222222;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 9px;
+  display: none;
+  position: relative;
+
+  h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+  p {
+    color: rgb(187, 187, 187);
+    font-size: 18px;
+    width: 250px;
+    text-align: center;
+}
+.particle{
+  position: absolute;
+  transform: translateY(-100px);
+}
+}
+.win_buttons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+
+  .share{
+    background-color: #3C7FD3;
+    color: white;
+    font-weight: 600;
+  }
+
+  .Win_reset{
+    background-color: #3CCD3D;
+    color: white;
+    font-weight: 600;
+  }
+}
+.winCard button{
+  border: none;
+  outline: none;
+  padding: 13px 30px;
+}
+.LostCard h3{
+  margin-top: 15px;
+}

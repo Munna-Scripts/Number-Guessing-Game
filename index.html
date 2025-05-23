@@ -40,29 +40,49 @@
             </div>
             <div class="GuessChange">
                 <h2>Guess The Number</h2>
-                <h2><span>5 </span>Out Of 5</h2>
+                <h2><span class="CountDown">5 </span>Out Of 5</h2>
             </div>
             
             <div class="output">
-                <span class="result">Select Your Number</span>
-                <button onclick="ClearDisplay()" class="bg-red DeleteNumber">Clear</button>
+                <span class="resultTwo">Select Your Number</span>
+                <button onclick="ClearDisplayTwo()" class="bg-red DeleteNumber">Clear</button>
             </div>
             <div class="buttons">
-                <button onclick="DisplayResult('1')" class="Number1">1</button>
-                <button onclick="DisplayResult('2')" class="Number2">2</button>
-                <button onclick="DisplayResult('3')" class="Number3">3</button>
-                <button onclick="DisplayResult('4')" class="Number4">4</button>
-                <button onclick="DisplayResult('5')" class="Number5">5</button>
-                <button onclick="DisplayResult('6')" class="Number6">6</button>
-                <button onclick="DisplayResult('7')" class="Number7">7</button>
-                <button onclick="DisplayResult('8')" class="Number8">8</button>
-                <button onclick="DisplayResult('9')" class="Number9">9</button>
-                <button onclick="DisplayResult('10')" class="Number10">10</button>
+                <button onclick="DisplayResultTwo('1')" class="Number1">1</button>
+                <button onclick="DisplayResultTwo('2')" class="Number2">2</button>
+                <button onclick="DisplayResultTwo('3')" class="Number3">3</button>
+                <button onclick="DisplayResultTwo('4')" class="Number4">4</button>
+                <button onclick="DisplayResultTwo('5')" class="Number5">5</button>
+                <button onclick="DisplayResultTwo('6')" class="Number6">6</button>
+                <button onclick="DisplayResultTwo('7')" class="Number7">7</button>
+                <button onclick="DisplayResultTwo('8')" class="Number8">8</button>
+                <button onclick="DisplayResultTwo('9')" class="Number9">9</button>
+                <button onclick="DisplayResultTwo('10')" class="Number10">10</button>
             </div>
-            <button class="bg-green EnterButton">Enter</button>
+            <button class="bg-green EnterButtonTwo">Enter</button>
         </div>
     </div>
 
+    <div class="winCard">
+        <img src="images/Cup_1.png" alt="Cup">
+        <img class="particle" src="https://i.gifer.com/YMY2.gif" alt="img">
+        <h3>Congratulations</h3>
+        <p>You have successfully completed Number Guess Game</p>
+        <div class="win_buttons">
+            <button class="share">Share</button>
+            <button class="Win_reset">Restart</button>
+        </div>
+    </div>
+
+        <div class="winCard LostCard">
+        <img src="https://media.tenor.com/nANqORN7qhQAAAAM/explosion-explode.gif" alt="Cup">
+        <h3>Player 1 Won</h3>
+        <p>You have lost to player 1 successfully</p>
+        <div class="win_buttons">
+            <button class="share">Share</button>
+            <button class="Win_reset">Restart</button>
+        </div>
+    </div>
 
 
 
